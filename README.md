@@ -10,6 +10,7 @@ Namely
 - if random state 4 is provided, it returns state |1100>
 
 ## Experiment
+The code is implemented using Pennylane.
 In this task, a quantum variational circuit is desgined. In this model, there are 8 layers and each layer contain 4 Rot gates and 6 CNOT gates. The 6 CNOT gates are fully connected to each other.   
 
 The loss function is designed as L = sum(abs(l - f)), where l is label and f is fidelity. We use the absolute loss function to rapidly converge the loss.
