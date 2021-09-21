@@ -17,4 +17,4 @@ The loss function is designed as L = sum(abs(l - f)), where l is label and f is 
 
 The batch size of the dataset is 8. 
 
-If the radom input states are [1, 1, 1, 0], [0, 1, 1, 0], [1, 0, 0, 1], [1, 0, 1, 0], the average fidelity for the outputs given by the task is 91%. 
+If the radom input states are [1, 1, 1, 0], [0, 1, 1, 0], [1, 0, 0, 1], [1, 0, 1, 0], the average fidelity for the outputs given by the task is 95%. 
