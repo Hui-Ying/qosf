@@ -12,5 +12,7 @@ Namely
 ## Experiment
 In this task, a quantum variational circuit is desgined. In this model, there are 8 layers and each layer contain 4 Rot gates and 6 CNOT gates. The 6 CNOT gates are fully connected to each other.   
 
-The loss function is designed as L = sum(abs(l - f)), where l is label and f is fidelity. 
+The loss function is designed as L = sum(abs(l - f)), where l is label and f is fidelity. We use the absolute loss function to rapidly converge the loss.
+
+The batch size of the dataset is 8. 
 
